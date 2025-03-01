@@ -1,4 +1,4 @@
-#Days of the Month
+#Create a dictionary that maps the month number to the number of days in that month
 days_in_a_month = {
     1: 31,  # January
     2: 28,  # February (leap year not considered)
@@ -24,8 +24,9 @@ else:
     print("Invalid month number Please enter a number between 1 and 12.")
 
 #Advanced Requirement Task
-
-# Advanced Task: Days of the Month with Leap Year Adjustment
+#Ask the user if it is a leap year
+#If it is a leap year, update the number of days in February to 29
+#If it is not a leap year, keep the number of days in February as 28
 days_in_a_month = {
     1: 31,  # January
     2: 28,  # February (leap year is considered)
